@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <div id="calosc">
+            
+            <div id="tresc">
+                <button type="submit" onclick="sidebar()" id="sidebar_schowany"><img src="img/hamburger-icon.jpg" alt="hamburger-icon" height="50px" width="50px"></button>
+            <div id="sidebar">
+                <button type="submit" id="sidebar_pokazany" onclick="sidebar()"><img src="img/hamburger-icon.jpg" alt="hamburger-icon" height="50px" width="50px"></button>
+            </div>
+            <div id="formularz_box">
+                <div id="formularz">
+                    <form action="main.html">
+                        <input type="text" placeholder="imie" id="imie"/>
+                        <input type="text" placeholder="nazwisko" id="nazwisko"/>
+    
+                        <h4>Wybierz temat ogłoszenia:</h4>
+                        <select name="temat" id="temat">
+                            <option value="Informacja">Informacja</option>
+                            <option value="Zgłoszenie">Zgłoszenie</option>
+                            <option value="Skarga">Skarga</option>
+                        </select>
+    
+                        <input type="text" id="opis" placeholder="Treść ogłoszenia"/>
+                        <input id="guzik" type="button" value="Wyślij" onclick="getForm()">
+                    </form>
+                </div>
+                
+            </div>
+            <div id="zwierzaki_box">
+                <div id="zwierzaki">
+                    <h4>Zwierzęta, które ważą więcej niż 10kg:</h4>
+                    <ul id="list">
+                    </ul>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+        <script>addLi();</script>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    margin: 0px;
+}
+
+/*Style do pliku index.html*/
+#box1{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+#formularz_logowania{
+    height: 50%;
+    width: 30%;
+    box-shadow:inset 0 0 0 2000px rgba(255, 200, 80, 0.5);
+    text-align: center;
+    float: left;
+    margin-left: 35%;
+    margin-top: 8%;
+    border-radius: 20px;
+}
+
+#login{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 10%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#haslo {
+    width: 80%;
+    height: 10%;
+    margin-top: 5%;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#zaloguj {
+    width: 20%;
+    height: 10%;
+    margin-top: 5%;
+    border-radius: 15px;
+}
+
+/*Style do pliku main.html*/
+#calosc {
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+#sidebar {
+    width: 20%;
+    height: 100%;
+    background-color: hotpink;
+    display: none;
+    float: left;
+    
+}
+
+#tresc {
+    width: 100%;
+    height: 100%;
+    background-color: indigo;
+    float: left;
+}
+
+/*Style do boxa z formularzem*/
+#formularz_box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#formularz {
+    width: 25%;
+    text-align: center;
+    background-color: khaki;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#imie {
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nazwisko {
+    width: 80%;
+    margin-top: 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#opis {
+    width: 80%;
+    height: 50px;
+    margin-top: 5%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#guzik {
+    width: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*Style do boxa z wyświetlaniem zwierzaków*/
+#zwierzaki_box {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#zwierzaki {
+    width: 25%;
+    text-align: center;
+    background-color: khaki;
+    margin: auto;
+    border-radius: 10px;
+}
+
